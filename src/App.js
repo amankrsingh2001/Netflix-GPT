@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        This is a project
+
+      Namaste Everyone , Lets build Netflix gpt.
+      
     </div>
   );
 }
