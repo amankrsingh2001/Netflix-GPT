@@ -1,9 +1,9 @@
 # Netflix  GPT 
 
 - create react app
--configured Tailwind css
+- configured Tailwind css
 
-
+- https://netflix-gpt-debb9.web.app/
 
 # Features
 
@@ -12,6 +12,17 @@
     - redirect to Browser Page
     - Login Form
     - signup Form
+    - Routing of App
+    - sign up Form
+    - Form Validation
+    - useRef Hook
+    - Firebase setup
+    - Deploying to production    
+    - create signup user account
+
+
+
+
 - Browse(after authenication)
     - Header 
     - Main-Movie
