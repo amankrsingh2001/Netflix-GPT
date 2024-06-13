@@ -5,7 +5,7 @@ import { CiCircleInfo } from "react-icons/ci";
 const VideoTitle = ({title,overview}) => {
     // {title,overview}
   return (
-    <div className='w-scren aspect-video px-24 pt-[18%] absolute text-white bg-gradient-to-r from-black'>
+    <div className='w-screen aspect-video px-24 pt-[18%] absolute text-white  bg-black bg-opacity-35'>
         <h1 className='text-6xl w-1/4 font-bold'>{title}</h1>
         <p className='text-lg py-6 w-1/4'>{overview}</p>
 
