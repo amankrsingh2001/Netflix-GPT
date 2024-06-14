@@ -43,7 +43,11 @@
     - TMDB image CDN_URL
     - Improved the browse page using tailwind
     - usePopular Movies Hook
-    
+    - useTrending ,useUpcoming Hook
+    - GPT search page
+    - Gpt search bar
+    - Multi-Lingual Language Feature on search page
+    - Integrate the GPT API(Get open APT key)
 
 - Browse(after authenication)
     - Header 
