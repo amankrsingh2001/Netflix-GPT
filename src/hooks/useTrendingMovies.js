@@ -16,7 +16,7 @@ const useTrendingMovies = () =>{
     
       useEffect(()=>{
         !trendingMovies && getTrendingMovies()
-      },[])
+      },[getTrendingMovies,trendingMovies])
 }
 
 export default useTrendingMovies;
