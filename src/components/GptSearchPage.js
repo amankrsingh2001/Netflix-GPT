@@ -52,8 +52,8 @@ const GptSearchPage = () => {
 
   return (
     <div className='pt-[35%] md:pt-[8%] flex justify-center '>
-        <form className='w-full md:w-1/2 bg-black grid grid-cols-12 rounded-lg' onClick={(e)=>e.preventDefault()}>
-            <input ref={searchText} type='text' placeholder={lang[langkey].gptSearchPlaceholder} className='p-4 m-4 rounded-md col-span-9' />
+        <form className='w-full md:w-1/2 bg-black grid grid-cols-12 rounded-lg ' onClick={(e)=>e.preventDefault()}>
+            <input ref={searchText} type='text' placeholder={lang[langkey].gptSearchPlaceholder} className='p-4 m-4 outline-none rounded-md col-span-9' />
             <button  className='py-2 px-4 bg-red-700 text-white rounded-lg m-4 col-span-3' onClick={handleGptSearchClick} >{lang[langkey].search}</button>
         </form>
     </div>
