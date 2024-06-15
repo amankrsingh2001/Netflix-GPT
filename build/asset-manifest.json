@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Netflix-GPT/static/css/main.5c8de3b6.css",
+    "main.js": "/Netflix-GPT/static/js/main.02d2daf5.js",
+    "index.html": "/Netflix-GPT/index.html",
+    "main.5c8de3b6.css.map": "/Netflix-GPT/static/css/main.5c8de3b6.css.map",
+    "main.02d2daf5.js.map": "/Netflix-GPT/static/js/main.02d2daf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c8de3b6.css",
+    "static/js/main.02d2daf5.js"
+  ]
+}
