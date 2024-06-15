@@ -83,12 +83,12 @@ const Login = () => {
   };
 
   return (
-    <div className="">
+    <div className="w-screen">
       <Header />
-      <div className="absolute">
+      <div className="absolute w-full">
         <img
         //class
-        className="h-screen object-cover"
+        className="h-screen w-full "
           src={BG_URL}
           alt="backgroundImage"
         />
