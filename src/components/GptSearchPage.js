@@ -15,7 +15,7 @@ const GptSearchPage = () => {
       //serach movie in tmdb
       const searchMovieTMDB = async(movie) =>
         {
-          const data = await fetch('https://api.themoviedb.org/3/search/movie?query=' +movie+ '&include_adult=false&language=en-US&page=1',API_OPTION)
+          const data = await fetch('https://api.themoviedb.org/3/search/movie?query=' + movie + '&include_adult=false&language=en-US&page=1',API_OPTION)
           const json = await data.json()
           return json.results
         }
@@ -23,7 +23,7 @@ const GptSearchPage = () => {
     const handleGptSearchClick = async () =>{
     //Make an API call to Get the movie results
 
-    const gptQuery = "Act as a Movie Recommendation system and suggest some movies for the query" + searchText.current.value + "only give me names of 10 movies,comma seperated like the example result given ahead . Example Result: Avenger End Game,Don,Avengers,GolMaal,Koi Mil gya"
+    const gptQuery = "Act as a Movie Recommendation system and suggest some movies for the query" + searchText.current.value + "only give me names of 5 movies,comma seperated like the example result given ahead . Example Result: Avenger End Game,Don,Avengers,GolMaal,Koi Mil gya"
     const genAI = new GoogleGenerativeAI(GEMINI_API);
    
     const run = async ()=> {
@@ -36,8 +36,8 @@ const GptSearchPage = () => {
   
       (async () =>{
         const result = await run()
-        const data =result.map((movie) => searchMovieTMDB(movie))
-        const tmdbResults =await Promise.all(data)
+        const data = result.map((movie) => searchMovieTMDB(movie))
+        const tmdbResults = await Promise.all(data)
         dispatch(addGptMovieResult({movieNames:result,movieResults:tmdbResults}))
       })()
  
