@@ -3,7 +3,7 @@
 - create react app
 - configured Tailwind css
 
-- https://netflix-gpt-debb9.web.app/
+
 
 # Features
 
