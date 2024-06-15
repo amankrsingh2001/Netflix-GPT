@@ -48,6 +48,16 @@
     - Gpt search bar
     - Multi-Lingual Language Feature on search page
     - Integrate the GPT API(Get open APT key)
+    - Gemini AI Key
+    - Gpt Search API call
+    - Fetched Gemini movie suggestion
+    - created Gemini Slice and added Data
+    - Reused Movie List component to show movie suggestion
+    - Memoization
+    - Adding .env file to git ignore
+    - Responsive
+
+
 
 - Browse(after authenication)
     - Header 

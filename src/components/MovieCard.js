@@ -7,7 +7,7 @@ const MovieCard = ({posterPath}) => {
 // } This can be done to show all the movie lists but using same images wil make the UI bad and dumb looking so we will just not add the card if the poster_path isn't avilable
 if(!posterPath) return 
   return (
-    <div className='w-56 h-72 pr-2 cursor-pointer '>
+    <div className='w-36 h-56 md:w-48 md:h-72 pr-2 cursor-pointer '>
       <img className='w-full h-full' alt='Movie card' src={IMG_CDN_URL+ posterPath }/> 
     </div>
   )

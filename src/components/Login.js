@@ -87,12 +87,14 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
+        //class
+        className="h-screen object-cover"
           src={BG_URL}
           alt="backgroundImage"
         />
       </div>
       {isLogin === true ? (
-        <form className="px-14 py-12 bg-black absolute w-3/12  my-36 mx-auto right-0 left-0 to-transparent text-white  bg-opacity-80 flex flex-col rounded-s-xl">
+        <form className="px-14 py-12 bg-black absolute w-full md:w-3/12 my-36 mx-auto right-0 left-0 to-transparent text-white  bg-opacity-80 flex flex-col rounded-s-xl">
           <h1 className="font-bold text-3xl py-4">Sign In</h1>
           <input
             ref={email}
@@ -150,7 +152,7 @@ const Login = () => {
           </div>
         </form>
       ) : (
-        <form className="px-14 py-12 bg-black absolute w-3/12  my-24 mx-auto right-0 left-0 to-transparent text-white  bg-opacity-80 flex flex-col rounded-s-xl">
+        <form className="px-14 py-12 bg-black absolute w-full md:w-3/12 my-24 mx-auto right-0 left-0 to-transparent text-white  bg-opacity-80 flex flex-col rounded-s-xl">
           <h1 className="font-bold text-3xl py-4">Sign Up</h1>
           <input
             ref={name}
